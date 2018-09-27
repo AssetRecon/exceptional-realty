@@ -1,5 +1,7 @@
 @import url(http://fonts.googleapis.com/css?family=Elsie+Swash+Caps:400,900);
 @import url(http://fonts.googleapis.com/css?family=Clicker+Script);
+@import url(https://fonts.googleapis.com/css?family=Open+Sans);
+@import url(https://fonts.googleapis.com/css?family=Gruppo);
 
 /*////////// GLOBAL //////////*/
 
@@ -198,12 +200,13 @@ header {
 }
 
 #logo h1 {
-  font-family: 'Clicker Script', cursive;
+  font-family: 'Open Sans', sans-serif;
+  font-style: normal;
   margin: 0;
 }
 
 #logo h2 {
-  font-family: 'Elsie Swash Caps', cursive;
+  font-family: 'Scope One', serif;
   margin: 0;
 }
 
