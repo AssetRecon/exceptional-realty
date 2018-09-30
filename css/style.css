@@ -4,6 +4,12 @@
 
 /*////////// GLOBAL //////////*/
 
+.welcome {
+  height: 100;
+
+
+}
+
 h3 {
   margin: 0 0 10px;
 }
@@ -89,7 +95,7 @@ img, video, audio, iframe, table, form {
 /*/////// LAYOUT ////////*/
 
 .wrapper {
-  width: 960px;
+  width: 1440px;
   margin: 0 auto;
 }
 
@@ -135,13 +141,16 @@ img, video, audio, iframe, table, form {
 /*////////// HEADER //////////*/
 
 header {
-  margin: 0 0 30px;
+  margin-bottom: 30px;
+  margin-left: 0;
+  margin-right: 0;
+  margin-top: 0;
 }
 
 /*////////// NAVBAR //////////*/
 
 #navbar {
-  position: fixed;
+  position: absolute;
   top: 0;
   left: 0;
   width: 100%;
@@ -209,9 +218,10 @@ section {
 
 /*////////// DETAILS //////////*/
 
-#details {
+#main-section {
   border-top: 1px solid white;
 }
+
 
 #details div {
   height: 221px;
